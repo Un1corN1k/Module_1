@@ -1,4 +1,4 @@
-def Fizz_Buzz(fizz: int, buzz: int, n: int):
+def Fizz_Buzz(fizz, buzz, n):
     result = " "
     for fizzbuzz in range(1, n + 1):
         if fizzbuzz % fizz == 0 and fizzbuzz % buzz == 0:
