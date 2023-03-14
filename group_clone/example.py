@@ -9,13 +9,9 @@ def Fizz_Buzz(fizz, buzz, n):
             result += 'B' + ' '
         else:
             result += str(fizzbuzz) + ' '
-    return result
+    return f'Here is your result: {result}'
 
-
-print('Enter the value of the fizz variable: ')
-fizz = int(input())
-print('Enter the value of the buzz variable: ')
-buzz = int(input())
-print('Enter the string length: ')
-n = int(input())
-print(f'Here is your result: {Fizz_Buzz(fizz,buzz,n)}')
+fizz = int(input('Enter the value of the fizz variable: '))
+buzz = int(input('Enter the value of the buzz variable: '))
+n = int(input('Enter the string length: '))
+print(Fizz_Buzz(fizz, buzz, n))
